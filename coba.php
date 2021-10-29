@@ -202,37 +202,37 @@ class autovisitor extends Random_UA {
         $list[] = "http://id.yahoo.com/";
         $list[] = "http://search.yahoo.com/";
         $list[] = "http://duckduckgo.com/";
-        $list[] = "http://www.bing.com/";
+ 
         $list[] = "http://www.baidu.com/";
         $list[] = "http://www.ask.com/";
         $list[] = "http://www.search.aol.com/";
-        $list[] = "http://www.wolframalpha.com/";
-        $list[] = "http://www.webcrawler.com/";
+       
+        
         $list[] = "http://www.search.com/";
         $list[] = "http://www.dogpile.com/";
         $list[] = "http://www.ixquick.com/";
         $list[] = "http://www.excite.com/";
         $list[] = "http://www.info.com/";
 		$list[] = "http://google.com.sg";
-        $list[] = "http://www.excite.com/";
+        
         $list[] = "http://google.com.sg";
 	    $list[] = "http://google.co.id";
 	    $list[] = "http://google.com.my";
 	    $list[] = "http://google.jp";
-        $list[] = "http://www.ixquick.com/";
+        
 	    $list[] = "http://google.us";
 	    $list[] = "http://google.tl";
 	    $list[] = "http://google.ac";
-        $list[] = "http://www.search.com/";
+       
 	    $list[] = "http://google.ad";
 	    $list[] = "http://google.ae";
 	    $list[] = "http://google.af";
-        $list[] = "http://www.webcrawler.com/";
+        
 	    $list[] = "http://google.ag";
 	    $list[] = "http://google.ru";
 	    $list[] = "http://google.by";
 	    $list[] = "http://google.ca";
-        $list[] = "http://www.search.aol.com/";
+        
 	    $list[] = "http://google.cn";
 	    $list[] = "http://google.cl";
 	    $list[] = "http://google.cm";
@@ -241,11 +241,11 @@ class autovisitor extends Random_UA {
 	    $list[] = "http://google.ge";
 	    $list[] = "http://google.gr";
 	    $list[] = "http://google.com.tw";
-	    $list[] = "https://search.yahoo.com";
+	   
 
 
 
-		$acak = array_rand($list,10);
+		$acak = array_rand($list,1);
 		return $list[$acak];
 	}
 
@@ -260,8 +260,8 @@ class autovisitor extends Random_UA {
 
 } 
 
-for($i = 10; $i < $max+10; $i++) {
+for($i = 20; $i < $max+1; $i++) {
 	$class = new autovisitor($url);
-	echo $i.". VISITOR TERKIRIM MELALUI REFERER - [".$class->jalankan()."\n";
+	echo $i.". VISIT link  - [".$class->jalankan()."\n";
 }
 ?>

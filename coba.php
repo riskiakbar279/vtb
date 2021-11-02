@@ -7,6 +7,7 @@ $magenta = "\e[35m";
 $hijau = "\e[92m";
 $merah = "\e[91m";
 
+echo "$kuning CODE BY RISKIAKBAR279\n\n";
 echo "$cyan VISIT BLOGPOWERFULL\n\n";
 echo ' Website Mu (HTTPS/HTTP): ';
 $url = trim(fgets(STDIN));
